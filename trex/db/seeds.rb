@@ -27,4 +27,5 @@ quote18 = Quote.create(text: "As you get older three things happen. The first is
 quote19 = Quote.create(text: "Always borrow money from a pessimist. He won’t expect it back.")
 quote20 = Quote.create(text: "I can resist everything except temptation.")
 quote21 = Quote.create(text: "Women are meant to be loved, not to be understood.")
-quote22 = Quote.create(text: "My mom asked me what am I going to do with my life... I don't even know what I'm going to have for lunch.")
+quote22 = Quote.create(text: "I'm trying my best to see things from you're point of view, I just cant get my head that far up my ass.")
+quote23 = Quote.create(text: "My mom asked me what am I going to do with my life... I don't even know what I'm going to have for lunch.")
