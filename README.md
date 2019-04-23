@@ -1,5 +1,7 @@
 # trexback
 
+I hope you enjoy
+
 #Rails backend supplies front end react with images and quotes
 
 #Endpoints /image & /quote
