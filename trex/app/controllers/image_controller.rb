@@ -1,7 +1,7 @@
 class ImageController < ApplicationController
 
     def index
-        @images = Image.all.sample
+        @images = Image.fifth
         render json: @images
     end
 
