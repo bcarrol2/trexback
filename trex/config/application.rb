@@ -12,10 +12,16 @@ module Trex
     config.load_defaults 5.2
     # config.assets.paths << Rails.root.join("assets", "images")
 
+
+    # Here I am allowing the front end to talk to the back end without problems
+    # Make sure to have rack-cors gem
      config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'
+        # This origins line means any/all origins are acceptable
+        # Which is upsafe in a real environment
         resource '*', headers: :any, methods: [:get, :post, :options]
+        # Same as above '*' means all but can only do options and get and post requests 
       end
     end
 

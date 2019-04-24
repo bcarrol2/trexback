@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+
+# Seed data I create to show on front end
 quote1 = Quote.create(text: "If I had one hour left to live, I would spend it in math class because that never ends")
 quote2 = Quote.create(text: "I used to think I was indecisive, but now I'm not sure")
 quote3 = Quote.create(text: "Last night my internet went out, so I talked to my family. They seemed like cool people.")
